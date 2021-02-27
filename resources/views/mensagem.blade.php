@@ -125,7 +125,7 @@
                     <a class="navbar-brand" href="/perfil"><i class="fa fa-user" aria-hidden="true"></i></a>
                 </div>
                 <div>
-                <a href="/"><img src="/img/dog.png" alt="Logo Petinder"> </a>
+                    <a href="/"><img src="/img/dog.png" alt="Logo Petinder"> </a>
                 </div>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="/mensagem"><i class="fa fa-comment" aria-hidden="true"></i></a></li>
@@ -155,7 +155,7 @@
                     </div>
                 </div>
                 <div class="title m-b-md">
-                    Fofinho
+                    Mensagem    
                 </div>
                 <h1>lulu-da-pomerânia</h1>
                 <h3>Gosto de brincar, pular e destruir almofadas</h3>

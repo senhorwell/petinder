@@ -25,4 +25,12 @@ class HomeController extends Controller
     {
         return view('home');
     }
+    public function perfil()
+    {
+        return view('perfil');
+    }
+    public function mensagem()
+    {
+        return view('mensagem');
+    }
 }

@@ -155,7 +155,7 @@
                     </div>
                 </div>
                 <div class="title m-b-md">
-                    Fofinho
+                    Perfil
                 </div>
                 <h1>lulu-da-pomerânia</h1>
                 <h3>Gosto de brincar, pular e destruir almofadas</h3>

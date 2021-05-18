@@ -24,18 +24,20 @@ CREATE TABLE `users` (
 
 CREATE TABLE `pet` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `dono_id` bigint(20) unsigned NOT NULL NOT NULL,
   `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `idade` bigint(20) COLLATE utf8mb4_unicode_ci NOT NULL,
   `raca` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `especie` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `description` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  PRIMARY KEY (`id`),
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 CREATE TABLE `chat` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `msg` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `user_id1` bigint(20) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `user_id2` bigint(20) COLLATE utf8mb4_unicode_ci NOT NULL,
-  PRIMARY KEY (`id`),
+  `sender_id` bigint(20) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `receiver_id` bigint(20) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

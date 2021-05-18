@@ -6,11 +6,11 @@
         <div class="col-5">
             <img class="w-100" src="/img/silvestres.jpg" />
         </div>
-        <div class="col-3" style="border: 1px solid gray;">
+        <div class="col-3 p-3" style="border: 1px solid #ccc; border-radius:15px;">
             <h2>Jorginho</h2>
             <h2>Vacinado e Castrado</h2>
             <p>Jorginho é umg ato foda, ele é meio tristinho, mas ele é massa, dá até joinha</p>
-            <button class="w-100" style="line-height: 2rem;">Adicionar ao lar :)</button>
+            <button class="w-100" style="line-height: 2rem;border:none;background:orange;color:white;">Adicionar ao lar :)</button>
         </div>
         <div class="col-3">
             <h2>Ultimos animais adicionados</h2>

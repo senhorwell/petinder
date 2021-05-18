@@ -62,13 +62,19 @@
     <div id="parceiros" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block" style="max-width:300px !important;" src="/img/gatos.jpeg" alt="First slide">
+                <img class="d-block" style="max-width:300px !important;" src="/img/marcas/1.png" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block" style="max-width:300px !important;" src="/img/dog.png" alt="Second slide">
+                <img class="d-block" style="max-width:300px !important;" src="/img/marcas/2.png" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block" style="max-width:300px !important;" src="/img/silvestres.jpg" alt="Third slide">
+                <img class="d-block" style="max-width:300px !important;" src="/img/marcas/3.png" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block" style="max-width:300px !important;" src="/img/marcas/4.png" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block" style="max-width:300px !important;" src="/img/marcas/5.png" alt="Third slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#parceiros" role="button" data-slide="prev">

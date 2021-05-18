@@ -29,8 +29,16 @@ class HomeController extends Controller
     {
         return view('perfil');
     }
+    public function perfil2()
+    {
+        return view('perfil2');
+    }
     public function mensagem()
     {
         return view('mensagem');
+    }
+    public function adocao()
+    {
+        return view('adocao');
     }
 }

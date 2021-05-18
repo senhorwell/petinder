@@ -10,7 +10,7 @@
             <h2>Jorginho</h2>
             <h2>Vacinado e Castrado</h2>
             <p>Jorginho é umg ato foda, ele é meio tristinho, mas ele é massa, dá até joinha</p>
-            <button class="w-100" style="line-height: 2rem;border:none;background:orange;color:white;">Adicionar ao lar :)</button>
+            <a href="/chat" class="w-100 p-3" style="border-radius: 15px;line-height: 2rem;border:none;background:orange;color:white;">Adicionar ao lar :)</a>
         </div>
         <div class="col-3">
             <h2>Ultimos animais adicionados</h2>

@@ -5,9 +5,9 @@
     <div class="row justify-content-center">
     <div class="col-md-8">
             <img class="w-100" src="/img/filhotes.jpg"/>
-            <div class="d-flex justify-content-around">
-                <button class="col-3 mt-3" style="border:none;background:blue;color:white;">Contato com o doador</button>
-                <button class="col-3 mt-3" style="border:none;background:red;color:white;">like</button>
+            <div class="d-flex justify-content-around text-center">
+                <a href="/chat" class="col-3 mt-3" style="border:none;background:blue;color:white;">Contato com o doador</a>
+                <a href="#" class="col-3 mt-3" style="border:none;background:red;color:white;">Like</a>
             </div>
         </div>
         <div class="col-12 text-center pt-5">

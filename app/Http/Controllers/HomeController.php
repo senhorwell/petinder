@@ -41,4 +41,8 @@ class HomeController extends Controller
     {
         return view('adocao');
     }
+    public function chat()
+    {
+        return view('chat');
+    }
 }

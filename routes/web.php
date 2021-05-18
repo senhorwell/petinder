@@ -27,3 +27,5 @@ Route::get('/perfil/1', 'HomeController@perfil2')->name('perfil2');
 Route::get('/mensagem', 'HomeController@mensagem')->name('mensagem');
 
 Route::get('/adocao', 'HomeController@adocao')->name('adocao');
+
+Route::get('/chat', 'HomeController@chat')->name('chat');

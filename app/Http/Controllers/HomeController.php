@@ -45,4 +45,8 @@ class HomeController extends Controller
     {
         return view('chat');
     }
+    public function registerPet()
+    {
+        return view('registerpet');
+    }
 }

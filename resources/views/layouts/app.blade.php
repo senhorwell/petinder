@@ -53,7 +53,10 @@
                             <a class="nav-link" href="/home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/adocao">adocao</a>
+                            <a class="nav-link" href="/adocao">Adoção</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/register-pet">Adicionar pet</a>
                         </li>
                     </ul>
 

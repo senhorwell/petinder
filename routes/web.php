@@ -25,6 +25,7 @@ Route::get('/perfil', 'HomeController@perfil')->name('perfil');
 Route::get('/perfil/1', 'HomeController@perfil2')->name('perfil2');
 
 Route::get('/mensagem', 'HomeController@mensagem')->name('mensagem');
+Route::get('/register-pet', 'HomeController@registerPet')->name('registerpet');
 
 Route::get('/adocao', 'HomeController@adocao')->name('adocao');
 
